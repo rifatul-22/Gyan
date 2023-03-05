@@ -1,0 +1,13 @@
+/* common css start  */
+h1,h2,h3,h4,h5,h6,
+ol,ul,p,small.span,button{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+/* common css end  */
