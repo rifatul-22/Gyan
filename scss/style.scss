@@ -10,4 +10,336 @@ ol,ul{
 a,a:hover{
     text-decoration: none;
 }
+body{
+    font-family: 'Arimo', sans-serif;
+}
 /* common css end  */
+ 
+// top ber section css start 
+#topbar{
+    background: #2d3e50;
+    .topber_info{
+        a{
+            display: inline-block;
+            margin-right: 12px;
+            font-size: 14px;
+            font-weight: 400;
+            color: #fff;
+            padding: 13px 0;
+            transition: 0.3s;
+            &:hover{
+                color: #fcbf65;
+            }
+            i{
+                margin-right: 6px;
+            }
+        }
+    }
+    .topber_regster{
+        a{
+            display: inline-block;
+            padding: 13px 0;
+            color: #fff;
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: capitalize;
+            margin-left: 5px;
+            transition: 0.3s;
+            &:hover{
+                color: #fcbf65;
+            }
+        }
+    }
+}
+// top ber section css end 
+// Nav section css start 
+.nav{
+    .logo{
+        img{
+            display: inline-block;
+            margin-top: -25px;
+        }
+    }
+    .nav_ul{
+        margin-left: 100px;
+        .nav_li{
+            padding: 40px 22px;
+            a{
+                font-size: 16px;
+                font-weight: 400;
+                text-transform: capitalize;
+                color: #2d3e50;
+                transition: 0.3s;
+                &:hover{
+                    color: #fcbf65;
+                }
+                &.n_active{
+                    color: #fcbf65;
+                }
+            }
+        }
+    }
+    .nav_btn{
+        margin-left: 10px;
+        a{
+            padding: 19px;
+            font-weight: 400;
+            font-size: 20px;
+            color: #fff;
+            background: #fcbf65;
+            border-radius: 10px;
+            transition: 0.3s;
+            &:hover{
+                background: #2d3e50;
+            }
+        }
+    }
+}
+// Nav section css end 
+// Banner section css start 
+#banner{
+    position: relative;
+    .banner_slider_icon{
+        .banner_slider_icon_btn{
+            border: none;
+            background: none;
+            position: absolute;
+            // width: 67px;
+            // height: 67px;
+            // border: 2px solid #fff;
+            // border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 99;
+            &.prev{
+                left: 30px;
+            }
+            &.next{
+                right: 30px;
+            }
+            span{
+                i{
+                    font-size: 20px;
+                    color: #fff;
+                    width: 67px;
+                    height: 67px;
+                    line-height: 67px;
+                    border: 2px solid #fff;
+                    border-radius: 50%;
+                    transition: 0.3s;
+                    &:hover{
+                        background: #fbaa33;
+                        color: #fff;
+                        border-color: #fbaa33;
+                    }
+                }
+            }
+        }
+    }
+    .banner_slider{
+        .banner_slider_item{
+            background-position: center;
+            background-size: cover;
+            height: 646px;
+            h4{
+                font-size: 40px;
+                font-weight: 400;
+                color: #fff;
+            }
+            h2{
+                font-size: 52px;
+                font-weight: 700;
+                color: #fff;
+                margin-bottom: 28px;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                color: #fff;
+                // width: 584px;
+                margin-bottom: 58px;
+                line-height: 1.7;
+            }
+            .b_btn{
+                a{
+                    padding: 20px;
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 400;
+                    background: #2d3e50;
+                    border-radius: 10px;
+                    margin-right: 20px;
+                    transition: 0.3s;
+                    &:hover{
+                        background: #fbaa33;
+                    }
+                }
+            }
+        }
+    }
+    .banner_blog{
+        .banner_blog_thum{
+            border-color: #d3d3d3;
+            position: absolute;
+            bottom: -140px;
+            .banner_blog_item{
+                background: #f5f5f5;
+                width: 365px;
+                padding: 30px 0px;
+                border-right: 1px solid #d3d3d3;
+                p{
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: #444444;
+                    margin: 20px 0;
+                }
+                a{
+                    font-size: 14px;
+                    color: #999999;
+                    font-weight: 400;
+                    transition: 0.3s;
+                    &:hover{
+                        color: #fbaa33;
+                    }
+                    i{
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+// Banner section css end 
+// About Us section css start 
+.title{
+    h3{
+        font-size: 32px;
+        font-weight: 700;
+        color: #2d3e50;
+        margin-bottom: 20px;
+    }
+    p{
+        width: 562px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #666666;
+        line-height: 1.7;
+        margin-bottom: 56px;
+    }
+}
+#about{
+    margin-top: 233px;
+    .shap{
+        margin-bottom: 5px;
+        .span_1{
+            background: #fbaa33;
+            height: 3px;
+            width: 359px;
+        }
+        .span_2{
+            background: #fbaa33;
+            height: 3px;
+            width: 7px;
+        }
+    }
+    .shap_2{
+        .span_1{
+            background: #2d3e50;
+            height: 3px;
+            width: 7px;
+        }
+        .span_2{
+            background: #2d3e50;
+            height: 3px;
+            width: 359px;
+        }
+    }
+    .about_img_slider{
+        position: relative;
+        .about_img_slider_dots{
+            display: flex;
+            position: absolute;
+            bottom: 9px;
+            right: 50%;
+            li button{
+                background: none;
+                font-size: 0;
+                width: 7px;
+                height: 7px;
+                border: 1px solid #999999;
+                border-radius: 50%;
+                margin-right: 5px;
+            }
+        }
+    }
+    .about_img_info{
+        margin-top: 50px;
+        p{
+            font-size: 14px;
+            font-weight: 400;
+            color: #444444;
+            line-height: 1.7;
+            margin-bottom: 34px;
+        }
+        .a_btn{
+            margin-top: 55px;
+            a{
+                padding: 19px;
+                font-weight: 400;
+                font-size: 20px;
+                color: #fff;
+                background: #fbaa33;
+                border-radius: 10px;
+                margin-right: 20px;
+                transition: 0.3s;
+                &:hover{
+                    background: #2d3e50;
+                }
+            }
+        }
+    }
+}
+// About Us section css end 
+// Counter Up section css start 
+#counter_up{
+    background: url(../img/counter_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 168px;
+    margin-top: 100px;
+    .counter_up_item{
+        padding: 40px 0;
+        h3{
+            font-size: 40px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 9px;
+        }
+        p{
+            font-size: 24px;
+            font-weight: 400;
+            color: #fff;
+            text-transform: capitalize;
+        }
+        .shap{
+            .shap_1{
+                background: #fbaa33;
+                width: 50px;
+                height: 3px;
+                margin-right: 7px;
+            }
+            .shap_2{
+                background: #fbaa33;
+                width: 10px;
+                height: 3px;
+            }
+        }
+    }
+}
+// Counter Up section css end 
+// Courses section css start 
+#courses{
+    margin-top: 100px;
+}
+// Courses section css end 
+

@@ -13,4 +13,311 @@ a, a:hover {
   text-decoration: none;
 }
 
-/* common css end  *//*# sourceMappingURL=style.css.map */
+body {
+  font-family: "Arimo", sans-serif;
+}
+
+/* common css end  */
+#topbar {
+  background: #2d3e50;
+}
+#topbar .topber_info a {
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  padding: 13px 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#topbar .topber_info a:hover {
+  color: #fcbf65;
+}
+#topbar .topber_info a i {
+  margin-right: 6px;
+}
+#topbar .topber_regster a {
+  display: inline-block;
+  padding: 13px 0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-left: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#topbar .topber_regster a:hover {
+  color: #fcbf65;
+}
+
+.nav .logo img {
+  display: inline-block;
+  margin-top: -25px;
+}
+.nav .nav_ul {
+  margin-left: 100px;
+}
+.nav .nav_ul .nav_li {
+  padding: 40px 22px;
+}
+.nav .nav_ul .nav_li a {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #2d3e50;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.nav .nav_ul .nav_li a:hover {
+  color: #fcbf65;
+}
+.nav .nav_ul .nav_li a.n_active {
+  color: #fcbf65;
+}
+.nav .nav_btn {
+  margin-left: 10px;
+}
+.nav .nav_btn a {
+  padding: 19px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  background: #fcbf65;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.nav .nav_btn a:hover {
+  background: #2d3e50;
+}
+
+#banner {
+  position: relative;
+}
+#banner .banner_slider_icon .banner_slider_icon_btn {
+  border: none;
+  background: none;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 99;
+}
+#banner .banner_slider_icon .banner_slider_icon_btn.prev {
+  left: 30px;
+}
+#banner .banner_slider_icon .banner_slider_icon_btn.next {
+  right: 30px;
+}
+#banner .banner_slider_icon .banner_slider_icon_btn span i {
+  font-size: 20px;
+  color: #fff;
+  width: 67px;
+  height: 67px;
+  line-height: 67px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#banner .banner_slider_icon .banner_slider_icon_btn span i:hover {
+  background: #fbaa33;
+  color: #fff;
+  border-color: #fbaa33;
+}
+#banner .banner_slider .banner_slider_item {
+  background-position: center;
+  background-size: cover;
+  height: 646px;
+}
+#banner .banner_slider .banner_slider_item h4 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+#banner .banner_slider .banner_slider_item h2 {
+  font-size: 52px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 28px;
+}
+#banner .banner_slider .banner_slider_item p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 58px;
+  line-height: 1.7;
+}
+#banner .banner_slider .banner_slider_item .b_btn a {
+  padding: 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  background: #2d3e50;
+  border-radius: 10px;
+  margin-right: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#banner .banner_slider .banner_slider_item .b_btn a:hover {
+  background: #fbaa33;
+}
+#banner .banner_blog .banner_blog_thum {
+  border-color: #d3d3d3;
+  position: absolute;
+  bottom: -140px;
+}
+#banner .banner_blog .banner_blog_thum .banner_blog_item {
+  background: #f5f5f5;
+  width: 365px;
+  padding: 30px 0px;
+  border-right: 1px solid #d3d3d3;
+}
+#banner .banner_blog .banner_blog_thum .banner_blog_item p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #444444;
+  margin: 20px 0;
+}
+#banner .banner_blog .banner_blog_thum .banner_blog_item a {
+  font-size: 14px;
+  color: #999999;
+  font-weight: 400;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#banner .banner_blog .banner_blog_thum .banner_blog_item a:hover {
+  color: #fbaa33;
+}
+#banner .banner_blog .banner_blog_thum .banner_blog_item a i {
+  margin-left: 5px;
+}
+
+.title h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #2d3e50;
+  margin-bottom: 20px;
+}
+.title p {
+  width: 562px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #666666;
+  line-height: 1.7;
+  margin-bottom: 56px;
+}
+
+#about {
+  margin-top: 233px;
+}
+#about .shap {
+  margin-bottom: 5px;
+}
+#about .shap .span_1 {
+  background: #fbaa33;
+  height: 3px;
+  width: 359px;
+}
+#about .shap .span_2 {
+  background: #fbaa33;
+  height: 3px;
+  width: 7px;
+}
+#about .shap_2 .span_1 {
+  background: #2d3e50;
+  height: 3px;
+  width: 7px;
+}
+#about .shap_2 .span_2 {
+  background: #2d3e50;
+  height: 3px;
+  width: 359px;
+}
+#about .about_img_slider {
+  position: relative;
+}
+#about .about_img_slider .about_img_slider_dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  bottom: 9px;
+  right: 50%;
+}
+#about .about_img_slider .about_img_slider_dots li button {
+  background: none;
+  font-size: 0;
+  width: 7px;
+  height: 7px;
+  border: 1px solid #999999;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+#about .about_img_info {
+  margin-top: 50px;
+}
+#about .about_img_info p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #444444;
+  line-height: 1.7;
+  margin-bottom: 34px;
+}
+#about .about_img_info .a_btn {
+  margin-top: 55px;
+}
+#about .about_img_info .a_btn a {
+  padding: 19px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  background: #fbaa33;
+  border-radius: 10px;
+  margin-right: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#about .about_img_info .a_btn a:hover {
+  background: #2d3e50;
+}
+
+#counter_up {
+  background: url(../img/counter_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 168px;
+  margin-top: 100px;
+}
+#counter_up .counter_up_item {
+  padding: 40px 0;
+}
+#counter_up .counter_up_item h3 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 9px;
+}
+#counter_up .counter_up_item p {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+}
+#counter_up .counter_up_item .shap .shap_1 {
+  background: #fbaa33;
+  width: 50px;
+  height: 3px;
+  margin-right: 7px;
+}
+#counter_up .counter_up_item .shap .shap_2 {
+  background: #fbaa33;
+  width: 10px;
+  height: 3px;
+}
+
+#courses {
+  margin-top: 100px;
+}/*# sourceMappingURL=style.css.map */
