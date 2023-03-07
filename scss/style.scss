@@ -340,6 +340,372 @@ body{
 // Courses section css start 
 #courses{
     margin-top: 100px;
+    position: relative;
+    .course_box_slider_icon{
+        .course_box_slider_icon_btn{
+            border: none;
+            background: none;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 99;
+            &.prev{
+                left: 30px;
+            }
+            &.next{
+                right: 30px;
+            }
+            span{
+                i{
+                    font-size: 20px;
+                    color: #2d3e50;
+                    width: 67px;
+                    height: 67px;
+                    line-height: 67px;
+                    border: 2px solid #2d3e50;
+                    border-radius: 50%;
+                    transition: 0.3s;
+                    &:hover{
+                        background: #fbaa33;
+                        color: #fff;
+                        border-color: #fbaa33;
+                    }
+                }
+            }
+        }
+    }
+    .course_box_slider{
+        .courses_box{
+            padding: 18px;
+            background: #f5f5f5;
+            width: 366px !important;
+            position: relative;
+            margin-left: 0;
+            margin-right: 8px;
+            .courses_box_img{
+                position: relative;
+                overflow: hidden;
+                &:hover .overlay{
+                    visibility: hidden;
+                    opacity: 1;
+                }
+                &:hover .overlay a{
+                    visibility: visible;
+                    opacity: 1;
+                }
+                &:hover img{
+                    transform: scale(1.1);
+                }
+                img{
+                    transform: scale(1);
+                    transition: 0.3s;
+                }
+                .overlay{
+                    position: absolute;
+                    inset: 0;
+                    background: rgba(0,0,0,0.70);
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 0.3s;
+                    a{
+                        position: absolute;
+                        top: 40%;
+                        right: 40%;
+                        width: 50px;
+                        height: 50px;
+                        text-align: center;
+                        line-height: 50px;
+                        border-radius: 50%;
+                        color: #fff;
+                        font-size: 20px;
+                        background: #fbaa33;
+                        z-index: 9999;
+                        visibility: hidden;
+                        opacity: 0;
+                        transition: 0.3s;
+                    }
+                }
+            }
+            .courses_box_profile{
+                margin-top: 20px;
+                img{
+                    margin-right: 10px;
+                }
+                .name{
+                    span{
+                        font-size: 13px;
+                        font-weight: 400;
+                        color: #444444;
+                    }
+                    p{
+                        font-size: 15px;
+                        font-weight: 400;
+                        color: #444444;
+                    }
+                }
+                .ratting{
+                    margin-left: 30px;
+                    .star{
+                        color: #fbaa33;
+                    }
+                    p{
+                        color: #999999;
+                        font-size: 13px;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .title{
+                margin: 18px 0;
+                font-size: 24px;
+                font-weight: 400;
+                color: #222222;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                color: #444444;
+            }
+            hr{
+                margin-top: 30px;
+                margin-bottom: 15px;
+            }
+            .course_info{
+                margin-bottom: 28px;
+                .course_info_item{
+                    margin-right: 30px;
+                    p{
+                        font-size: 13px;
+                        font-weight: 400;
+                        color: #999999;
+                    }
+                    span{
+                        font-size: 13px;
+                        font-weight: 400;
+                        color: #444444;
+                    }
+                }
+            }
+            .course_btn{
+                a{
+                    display: inline-block;
+                    padding: 20px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #fff;
+                    background: #2d3e50;
+                    border-radius: 10px;
+                    text-transform: capitalize;
+                    position: absolute;
+                    left: 118px;
+                    bottom: -34px;
+                    transition: 0.3s;
+                    z-index: 99999999999999999999;
+                    &:hover{
+                        background: #fbaa33;
+                    }
+                }
+            }
+        }
+    }
 }
 // Courses section css end 
+// Our Event section css start
+#event{
+    margin-top: 100px;
+
+    .event_blog{
+        .event_blog_item{
+            background: #f5f5f5;
+            padding: 19px;
+            margin-bottom: 30px;
+            .event_blog_item_img{
+                width: 212px !important;
+                height: 212px;
+                overflow: hidden;
+                margin-right: 20px;
+                &:hover img{
+                    transform: scale(1.1);
+                }
+                img{
+                    width: 212px;
+                    height: 212px;
+                    transform: scale(1);
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+            .event_blog_item_info{
+                h5{
+                    a{
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: #2d3e50;
+                        text-transform: capitalize;
+                        line-height: 1.5;
+                        margin-bottom: 10px;
+                        transition: 0.3s;
+                        &:hover{
+                            color: #fbaa33;
+                        }
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #444444;
+                    margin-bottom: 13px;
+                }
+                .time{
+                    p{
+                        font-size: 13px;
+                        font-weight: 400;
+                        color: #777777;
+                        margin-right: 20px;
+                        i{
+                            color: #2d3e50;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+                .event_btn{
+                    a{
+                        display: inline-block;
+                        padding: 15px 20px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #fff;
+                        background: #2d3e50;
+                        text-transform: capitalize;
+                        border-radius: 10px;
+                        transition: 0.3s;
+                        &:hover{
+                            background: #fbaa33;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} 
+// Our Event section css end 
+// Testimonial section css start 
+#testimonial{
+    margin-top: 100px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 58px 0;
+    .testimonial_slider_icon{
+        .testimonial_slider_icon_btn{
+            border: none;
+            background: none;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 99;
+            &.prev{
+                top: 380px;
+                left: 30px;
+            }
+            &.next{
+                top: 450px;
+                left: 30px;
+            }
+            span{
+                i{
+                    font-size: 20px;
+                    color: #fff;
+                    width: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                    background: #2d3e50;
+                    border-radius: 50%;
+                    transition: 0.3s;
+                    &:hover{
+                        background: #fbaa33;
+                        color: #fff;
+                        border-color: #fbaa33;
+                    }
+                }
+            }
+        }
+    }
+    .testimonial_slider{
+        .testimonial_slider_item{
+            .testimonial_slider_item_img{
+                width: 300px;
+                margin-right: 20px;
+                .shap{
+                        margin-bottom: 5px;
+                        .span_1{
+                            background: #fbaa33;
+                            height: 3px;
+                            width: 209px;
+                        }
+                        .span_2{
+                            background: #fbaa33;
+                            height: 3px;
+                            width: 7px;
+                        }
+                    }
+                    .shap_2{
+                            .span_1{
+                                background: #2d3e50;
+                                height: 3px;
+                                width: 7px;
+                            }
+                            .span_2{
+                                background: #2d3e50;
+                                height: 3px;
+                                width: 209px;
+                            }
+                        }
+            }
+            .testimonial_slider_item_info{
+                width: 419px;
+                margin-right: 40px;
+                p{
+                    margin-top: 67px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #444444;
+                    text-align: justify;
+                    line-height: 1.5;
+                    margin-bottom: 30px;
+                }
+                h5{
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: #444444;
+                    margin-left: 10px;
+                    margin-bottom: 15px;
+                    span{
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #444444;
+                    }
+                }
+                .star{
+                    margin-left: 10px;
+                    color: #fbaa33;
+                }
+            }
+            .testimonial_slider_item_qna{
+                width: 370px;
+                .qna_select{
+                    .para{
+                        width: 370px !important;
+                    }
+                }
+            }
+        }
+    }
+
+}
+// Testimonial section css end 
+// Teachers section css start 
+#teacher{
+    margin-top: 100px;
+}
+// Teachers section css end 
+
 
