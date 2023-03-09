@@ -1010,7 +1010,6 @@ footer{
     background-position: center;
     background-size: cover;
     height: 420px;
-    margin-bottom: 100px;
     .footer_info{
         margin-top: 30px;
         img{
@@ -1125,5 +1124,67 @@ footer{
     }
 }
 // Footer section css end 
+// Instagram Img section css start 
+.instra_img{
+    height: 240px;
+    .instra_img_shap{
+        img{
+            height: 240px;
+        }
+    }
+    .instra_img_item{
+        width: 240px;
+        height: 240px;
+        overflow: hidden;
+        position: relative;
+        &:hover a img{
+            transform: scale(1.1);
+        }
+        &:hover .ins_btn{
+            visibility: visible;
+            opacity: 1;
+        }
+        a{
+            img{
+                width: 240px;
+                height: 240px;
+                transform: scale(1);
+                transition: 0.3s;
+            }
+        }
+        .ins_btn{
+            position: absolute;
+            top: 100px;
+            left: 30px;
+            visibility: hidden;
+            opacity: 0;
+            transition: all 0.3s ease-in;
+            a{
+                display: inline-block;
+                font-size: 14px;
+                font-weight: 400;
+                color: #2d3e50;
+                padding: 16px 20px;
+                background: #fff;
+            }
+        }
+    }
+}
+#copyright{
+    background: #2d3e50;
+    z-index: 9999;
+    padding: 14px 0;
+    border-top: 2px solid #fff;
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        color: #fff;
+        span{
+            color: #fbaa33;
+            text-transform: capitalize;
+        }
+    }
+}
+// Instagram Img section css end 
 
 

@@ -961,7 +961,6 @@ footer {
   background-position: center;
   background-size: cover;
   height: 420px;
-  margin-bottom: 100px;
 }
 footer .footer_info {
   margin-top: 30px;
@@ -1065,4 +1064,66 @@ footer .address .address_item .info .contact a {
 }
 footer .address .address_item .info .contact a:hover {
   text-decoration: underline;
+}
+
+.instra_img {
+  height: 240px;
+}
+.instra_img .instra_img_shap img {
+  height: 240px;
+}
+.instra_img .instra_img_item {
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+  position: relative;
+}
+.instra_img .instra_img_item:hover a img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+.instra_img .instra_img_item:hover .ins_btn {
+  visibility: visible;
+  opacity: 1;
+}
+.instra_img .instra_img_item a img {
+  width: 240px;
+  height: 240px;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.instra_img .instra_img_item .ins_btn {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.instra_img .instra_img_item .ins_btn a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2d3e50;
+  padding: 16px 20px;
+  background: #fff;
+}
+
+#copyright {
+  background: #2d3e50;
+  z-index: 9999;
+  padding: 14px 0;
+  border-top: 2px solid #fff;
+}
+#copyright p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+#copyright p span {
+  color: #fbaa33;
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */

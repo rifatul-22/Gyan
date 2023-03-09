@@ -14,7 +14,7 @@ $(function(){
     });
     // Courses Box slider activation
     $('.course_box_slider').slick({
-         autoplay: true,
+         autoplay: false,
          arrows: true,
          prevArrow:$('.course_box_slider_icon_btn.prev'),
          nextArrow:$('.course_box_slider_icon_btn.next')
