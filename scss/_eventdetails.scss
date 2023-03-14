@@ -1,0 +1,183 @@
+
+
+/* Event Details section start  */
+#event_details{
+    margin-bottom: 100px;
+    .event_details_info{
+        .event_details_info_img{
+            position: relative;
+            span{
+                background: #3d7d33;
+                color: #fff;
+                padding: 10px 0px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 100px;
+                height: 100px;
+                line-height: 1;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+        .event_details_info_content{
+            h5{
+                margin-top: 30px;
+                margin-bottom: 10px;
+                a{
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: #2d3e50;
+                }
+            }
+            .star{
+                color: #ffc712;
+                margin-right: 30px;
+            }
+            .para{
+                p{
+                    font-size: 13px;
+                    font-weight: 400;
+                    color: #999999;
+                    margin-right: 17px;
+                }
+            }
+            .para_2{
+                margin-top: 28px;
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #444444;
+                    line-height: 1.7;
+                    margin-bottom: 30px;
+                }
+            }
+            .room{
+                .item_1{
+                    margin-right: 20px;
+                    p{
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #777777;
+                        i{
+                            margin-right: 5px;
+                            color: #2d3e50;
+                        }
+                    }
+                }
+            }
+            .event_details_btn{
+                margin-top: 60px;
+                a{
+                    padding: 15px 20px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    background: #2d3e50;
+                    color: #fff;
+                    margin-right: 15px;
+                    border-radius: 10px;
+                    transition: 0.3s;
+                    &:hover{
+                        background: #ffc712;
+                    }
+                }
+            }
+        }
+    }
+    .event_details_blog{
+        h3{
+            font-size: 32px;
+            font-weight: 700;
+            color: #2d3e50;
+            margin-bottom: 30px;
+            text-transform: capitalize;
+        }
+        .event_details_blog_item{
+            background: #f5f5f5;
+            padding: 19px;
+            margin-bottom: 30px;
+            .event_blog_item_img{
+                width: 212px !important;
+                height: 212px;
+                overflow: hidden;
+                margin-right: 20px;
+                position: relative;
+                &:hover img{
+                    transform: scale(1.1);
+                }
+                img{
+                    width: 212px;
+                    height: 212px;
+                    transform: scale(1);
+                    transition: all 0.3s ease-in-out;
+                }
+                .img_date{
+                    background: #3d7d33;
+                    color: #fff;
+                    padding: 10px 0px;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    width: 50px;
+                    height: 50px;
+                    line-height: 1;
+                }
+            }
+            .event_blog_item_info{
+                h5{
+                    a{
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: #2d3e50;
+                        text-transform: capitalize;
+                        line-height: 1.5;
+                        margin-bottom: 10px;
+                        transition: 0.3s;
+                        &:hover{
+                            color: #fbaa33;
+                        }
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #444444;
+                    margin-bottom: 13px;
+                }
+                .time{
+                    p{
+                        font-size: 13px;
+                        font-weight: 400;
+                        color: #777777;
+                        margin-right: 20px;
+                        i{
+                            color: #2d3e50;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+                .event_btn{
+                    a{
+                        display: inline-block;
+                        padding: 15px 20px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #fff;
+                        background: #2d3e50;
+                        text-transform: capitalize;
+                        border-radius: 10px;
+                        transition: 0.3s;
+                        &:hover{
+                            background: #fbaa33;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* Event Details section end  */

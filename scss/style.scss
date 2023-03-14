@@ -341,6 +341,7 @@ body{
 #courses{
     margin-top: 100px;
     position: relative;
+    margin-bottom: 100px;
     .course_box_slider_icon{
         .course_box_slider_icon_btn{
             border: none;
@@ -386,7 +387,7 @@ body{
                 position: relative;
                 overflow: hidden;
                 &:hover .overlay{
-                    visibility: hidden;
+                    visibility: visible;
                     opacity: 1;
                 }
                 &:hover .overlay a{
@@ -512,7 +513,7 @@ body{
 // Courses section css end 
 // Our Event section css start
 #event{
-    margin-top: 100px;
+    // margin-top: 100px;
 
     .event_blog{
         .event_blog_item{
@@ -709,6 +710,8 @@ body{
         position: relative;
         .teacher_info_img{
             position: relative;
+            width: 268px;
+                height: 300px;
             &:hover .social_icon{
                 visibility: visible;
                 opacity: 1;
@@ -1187,5 +1190,9 @@ footer{
 }
 // Instagram Img section css end 
 @import 'about';
+@import 'course';
+@import 'event';
+@import 'eventdetails';
+@import 'teacher';
 
 

@@ -1,0 +1,94 @@
+
+
+
+
+
+ /* our event section css start */
+#our_event{
+    margin-bottom: 100px;
+    .our_event_blog{
+        .our_event_blog_item{
+            background: #f5f5f5;
+            padding: 19px;
+            margin-bottom: 30px;
+            .event_blog_item_img{
+                width: 212px !important;
+                height: 212px;
+                overflow: hidden;
+                margin-right: 20px;
+                position: relative;
+                &:hover img{
+                    transform: scale(1.1);
+                }
+                img{
+                    width: 212px;
+                    height: 212px;
+                    transform: scale(1);
+                    transition: all 0.3s ease-in-out;
+                }
+                .img_date{
+                    background: #3d7d33;
+                    color: #fff;
+                    padding: 10px 0px;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    width: 50px;
+                    height: 50px;
+                    line-height: 1;
+                }
+            }
+            .event_blog_item_info{
+                h5{
+                    a{
+                        font-size: 20px;
+                        font-weight: 700;
+                        color: #2d3e50;
+                        text-transform: capitalize;
+                        line-height: 1.5;
+                        margin-bottom: 10px;
+                        transition: 0.3s;
+                        &:hover{
+                            color: #fbaa33;
+                        }
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #444444;
+                    margin-bottom: 13px;
+                }
+                .time{
+                    p{
+                        font-size: 13px;
+                        font-weight: 400;
+                        color: #777777;
+                        margin-right: 20px;
+                        i{
+                            color: #2d3e50;
+                            margin-right: 5px;
+                        }
+                    }
+                }
+                .event_btn{
+                    a{
+                        display: inline-block;
+                        padding: 15px 20px;
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #fff;
+                        background: #2d3e50;
+                        text-transform: capitalize;
+                        border-radius: 10px;
+                        transition: 0.3s;
+                        &:hover{
+                            background: #fbaa33;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* our event section css end */
