@@ -1,0 +1,91 @@
+
+
+/* Sign In section css start  */
+#sign_in{
+    .sign_in_img{
+        margin-left: -126px;
+        margin-bottom: 100px;
+    }
+    .sign_in_content{
+        h5{
+            font-size: 28px;
+            font-weight: 400;
+            color: #2e3e50;
+            text-transform: capitalize;
+            margin-bottom: 5px;
+        }
+        .reg_para{
+            font-size: 16px;
+            font-weight: 400;
+            color: #999999;
+            margin-bottom: 10px;
+        }
+        span{
+            display: inline-block;
+            width: 60px;
+            height: 4px;
+            background: #2e3e50;
+            border-radius: 10px;
+        }
+        .input{
+            position: relative;
+            input{
+                padding: 10px;
+                color: #999999;
+                outline: none;
+                border: none;
+                border-bottom: 1px solid #999999;
+                margin-bottom: 20px;
+                &:focus{
+                    border-color: #2e3e50;
+                    color: #2e3e50;
+                }
+            }
+            i{
+                position: absolute;
+                top: 22px;
+                right: 0;
+                color: #999999;
+            }
+        }
+        button{
+            padding: 10px 0;
+            font-size: 20px;
+            font-weight: 700;
+            color: #fefefe;
+            outline: none;
+            background: #fbaa33;
+            text-transform: capitalize;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 28px;
+        }
+        .forget_pass{
+            .forget{
+                font-size: 16px;
+                font-weight: 400;
+                color: #999999;
+                text-transform: capitalize;
+                transition: 0.3s;
+                &:hover{
+                    color: #2e3e50;
+                    text-decoration: underline;
+                }
+            }
+            p{
+                font-size: 16px;
+                font-weight: 400;
+                color: #999999;
+                transition: 0.3s;
+                a{
+                    color: #2e3e50;
+                    transition: 0.3s;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Sign In section css end  */

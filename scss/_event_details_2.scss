@@ -1,0 +1,245 @@
+
+
+/* Event Details 2 section start  */
+#event_details_2{
+    .event_details_2_content{
+        .event_details_2_img{
+            margin-bottom: 58px;
+        }
+        .post_catagory{
+            position: relative;
+            margin-bottom: 60px;
+            .post_catagory_item{
+                width: 170px;
+                .dots{
+                    display: inline-block;
+                    width: 9px;
+                    height: 9px;
+                    background: #fbaa33;
+                    border-radius: 50%;
+                    position: absolute;
+                    top: 6px;
+                }
+                .item{
+                    margin-left: 16px;
+                    p{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #fbaa33;
+                    }
+                    span{
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #777777;
+                    }
+                }
+            }
+        }
+        .title{
+            font-size: 24px;
+            font-weight: 700;
+            color: #222222;
+            line-height: 1.6;
+            margin-bottom: 28px;
+        }
+        .para{
+            p{
+                padding-left: 27px;
+                font-size: 14px;
+                font-weight: 400;
+                color: #444444;
+                margin-bottom: 30px;
+                line-height: 1.6;
+            }
+        }
+        .para_2{
+            background: #f1f1f1;
+            padding: 28px;
+            border-left: 5px solid #fbaa33;
+            line-height: 1.6;
+            margin-bottom: 28px;
+        }
+        .para_3{
+            padding-left: 28px;
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                color: #444444;
+                line-height: 1.6;
+            }
+        }
+        .list{
+            padding-left: 28px;
+            margin-top: 30px;
+            ol{
+                li{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #444444;
+                    margin-bottom: 20px;
+                    span{
+                        margin-right: 11px;
+                    }
+                }
+            }
+        }
+        .tags{
+            margin: 28px 0;
+            h6{
+                font-size: 20px;
+                font-weight: 700;
+                color: #151515;
+                margin-right: 30px;
+            }
+            .tags_item{
+                a{
+                    padding: 10px;
+                    border: 1px solid #dddddd;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #444444;
+                    text-transform: capitalize;
+                    margin-right: 10px;
+                    transition: 0.3s;
+                    &:hover{
+                        color: #fbaa33;
+                        border: 1px solid #fbaa33;
+                    }
+                }
+            }
+        }
+        .share{
+            position: relative;
+            h6{
+                font-size: 20px;
+                font-weight: 700;
+                color: #151515;
+                position: absolute;
+                top: 7px;
+            }
+            .share_link{
+                margin-left: 80px;
+                a{
+                    display: inline-block;
+                    width: 38px;
+                    height: 38px;
+                    line-height: 38px;
+                    border-radius: 50%;
+                    border: 1px solid #dddddd;
+                    text-align: center;
+                    margin-right: 10px;
+                    color: #777777;
+                    transition: 0.3s;
+                    &:hover{
+                        background: #fbaa33;
+                        color: #fff;
+                        border-color: #fbaa33;
+                    }
+                }
+            }
+        }
+    }
+    .comment{
+        margin-top: 100px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #151515;
+        text-transform: capitalize;
+        margin-bottom: 10px;
+    } 
+    .comment_content{
+        margin-bottom: 100px;
+        .event_details_2_comments{
+            margin-top: 30px;
+            &:nth-child(2){
+                margin-left: 90px;
+            }
+            .event_details_2_comments_content{
+                margin-left: 30px;
+                .name{
+                    margin-bottom: 8px;
+                    h6{
+                        font-size: 16px;
+                        font-weight: 700;
+                        color: #151515;
+                    }
+                    .post{
+                        font-size: 14px;
+                        font-weight: 400;
+                        color: #999999;
+                        margin-left: 0;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #444444;
+                    line-height: 1.6;
+                }
+                a{
+                    display: inline-block;
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #999999;
+                    text-transform: capitalize;
+                    margin-top: 5px;
+                    transition: 0.5s;
+                    &:hover{
+                        color: #fbaa33;
+                    }
+                    i{
+                        margin-right: 5px;
+                    }
+                }
+            } 
+        }
+    }
+    .replay_content{
+        .name_input{
+            margin-top: 28px;
+            input{
+                margin-right: 10px;
+                padding: 10px;
+                color: #777777;
+                outline: none;
+                border: 1px solid #777777;
+                margin-bottom: 15px;
+            }
+        }
+        textarea{
+            color: #777777;
+            outline: none;
+            padding: 10px;
+            height: 130px;
+            resize: none;
+            border: 1px solid #777777;
+            margin-bottom: 15px;
+        }
+        button{
+            padding: 10px 0;
+            font-size: 20px;
+            font-weight: 700;
+            color: #fefefe;
+            outline: none;
+            background: #2d3e50;
+            text-transform: capitalize;
+            border: none;
+            margin-bottom: 22px;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 700;
+            color: #000;
+            span{
+                a{
+                    color: #2c8cde;
+                    transition: 0.3s;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+/* Event Details 2 section start  */

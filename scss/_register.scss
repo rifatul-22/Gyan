@@ -1,0 +1,133 @@
+
+
+
+/* Register section css start  */
+#register{
+    .register_img{
+        margin-left: -126px;
+    }
+    .register_content{
+        h5{
+            font-size: 28px;
+            font-weight: 400;
+            color: #2e3e50;
+            text-transform: capitalize;
+            margin-bottom: 5px;
+        }
+        .reg_para{
+            font-size: 16px;
+            font-weight: 400;
+            color: #999999;
+            margin-bottom: 10px;
+        }
+        span{
+            display: inline-block;
+            width: 60px;
+            height: 4px;
+            background: #2e3e50;
+            border-radius: 10px;
+        }
+        .name{
+            margin-top: 50px;
+            margin-bottom: 20px;
+            .name_item{
+                position: relative;
+                input{
+                    margin-right: 20px;
+                    width: 263px;
+                    padding: 10px;
+                    color: #999999;
+                    outline: none;
+                    border: none;
+                    border-bottom: 1px solid #999999;
+                    &:focus{
+                        border-color: #2e3e50;
+                        color: #2e3e50;
+                    }
+                }
+                i{
+                    position: absolute;
+                    top: 20px;
+                    right: 22px;
+                    color: #999999;
+                }
+            }
+        }
+        .input{
+            position: relative;
+            input{
+                padding: 10px;
+                color: #999999;
+                outline: none;
+                border: none;
+                border-bottom: 1px solid #999999;
+                margin-bottom: 20px;
+                &:focus{
+                    border-color: #2e3e50;
+                    color: #2e3e50;
+                }
+            }
+            i{
+                position: absolute;
+                top: 22px;
+                right: 0;
+                color: #999999;
+            }
+        }
+        button{
+            padding: 10px 0;
+            font-size: 20px;
+            font-weight: 700;
+            color: #fefefe;
+            outline: none;
+            background: #2d3e50;
+            text-transform: capitalize;
+            border: none;
+            margin-bottom: 47px;
+        }
+        .account{
+            margin-bottom: 100px;
+            .sign_para{
+                font-size: 16px;
+                font-weight: 400;
+                color: #999999;
+                a{
+                    color: #2d3e50;
+                    transition: 0.3s;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
+            .reg{
+                p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #999999;
+                    margin-right: 10px;
+                }
+
+                .reg_btn{
+                    position: relative;
+                    a{
+                        display: inline-block;
+                        width: 50px;
+                        height: 50px;
+                        line-height: 50px;
+                        border-radius: 50%;
+                        background: #2d3e50;
+                        color: #fefefe;
+                        text-align: center;
+                        transition: 0.3s;
+                        border-right: 1px solid #999999;
+                        margin-top: -15px;
+                        &:hover{
+                            background: #d9594f;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* Register section css end  */

@@ -1699,4 +1699,451 @@ footer .address .address_item .info .contact a:hover {
   margin-bottom: 58px;
 }
 
-/* Teacher section end  *//*# sourceMappingURL=style.css.map */
+/* Teacher section end  */
+/* Event Details 2 section start  */
+#event_details_2 .event_details_2_content .event_details_2_img {
+  margin-bottom: 58px;
+}
+#event_details_2 .event_details_2_content .post_catagory {
+  position: relative;
+  margin-bottom: 60px;
+}
+#event_details_2 .event_details_2_content .post_catagory .post_catagory_item {
+  width: 170px;
+}
+#event_details_2 .event_details_2_content .post_catagory .post_catagory_item .dots {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  background: #fbaa33;
+  border-radius: 50%;
+  position: absolute;
+  top: 6px;
+}
+#event_details_2 .event_details_2_content .post_catagory .post_catagory_item .item {
+  margin-left: 16px;
+}
+#event_details_2 .event_details_2_content .post_catagory .post_catagory_item .item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fbaa33;
+}
+#event_details_2 .event_details_2_content .post_catagory .post_catagory_item .item span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #777777;
+}
+#event_details_2 .event_details_2_content .title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222222;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+#event_details_2 .event_details_2_content .para p {
+  padding-left: 27px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #444444;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+#event_details_2 .event_details_2_content .para_2 {
+  background: #f1f1f1;
+  padding: 28px;
+  border-left: 5px solid #fbaa33;
+  line-height: 1.6;
+  margin-bottom: 28px;
+}
+#event_details_2 .event_details_2_content .para_3 {
+  padding-left: 28px;
+}
+#event_details_2 .event_details_2_content .para_3 p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #444444;
+  line-height: 1.6;
+}
+#event_details_2 .event_details_2_content .list {
+  padding-left: 28px;
+  margin-top: 30px;
+}
+#event_details_2 .event_details_2_content .list ol li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #444444;
+  margin-bottom: 20px;
+}
+#event_details_2 .event_details_2_content .list ol li span {
+  margin-right: 11px;
+}
+#event_details_2 .event_details_2_content .tags {
+  margin: 28px 0;
+}
+#event_details_2 .event_details_2_content .tags h6 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #151515;
+  margin-right: 30px;
+}
+#event_details_2 .event_details_2_content .tags .tags_item a {
+  padding: 10px;
+  border: 1px solid #dddddd;
+  font-size: 14px;
+  font-weight: 400;
+  color: #444444;
+  text-transform: capitalize;
+  margin-right: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#event_details_2 .event_details_2_content .tags .tags_item a:hover {
+  color: #fbaa33;
+  border: 1px solid #fbaa33;
+}
+#event_details_2 .event_details_2_content .share {
+  position: relative;
+}
+#event_details_2 .event_details_2_content .share h6 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #151515;
+  position: absolute;
+  top: 7px;
+}
+#event_details_2 .event_details_2_content .share .share_link {
+  margin-left: 80px;
+}
+#event_details_2 .event_details_2_content .share .share_link a {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 50%;
+  border: 1px solid #dddddd;
+  text-align: center;
+  margin-right: 10px;
+  color: #777777;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#event_details_2 .event_details_2_content .share .share_link a:hover {
+  background: #fbaa33;
+  color: #fff;
+  border-color: #fbaa33;
+}
+#event_details_2 .comment {
+  margin-top: 100px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #151515;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+#event_details_2 .comment_content {
+  margin-bottom: 100px;
+}
+#event_details_2 .comment_content .event_details_2_comments {
+  margin-top: 30px;
+}
+#event_details_2 .comment_content .event_details_2_comments:nth-child(2) {
+  margin-left: 90px;
+}
+#event_details_2 .comment_content .event_details_2_comments .event_details_2_comments_content {
+  margin-left: 30px;
+}
+#event_details_2 .comment_content .event_details_2_comments .event_details_2_comments_content .name {
+  margin-bottom: 8px;
+}
+#event_details_2 .comment_content .event_details_2_comments .event_details_2_comments_content .name h6 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #151515;
+}
+#event_details_2 .comment_content .event_details_2_comments .event_details_2_comments_content .name .post {
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+  margin-left: 0;
+}
+#event_details_2 .comment_content .event_details_2_comments .event_details_2_comments_content p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #444444;
+  line-height: 1.6;
+}
+#event_details_2 .comment_content .event_details_2_comments .event_details_2_comments_content a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  color: #999999;
+  text-transform: capitalize;
+  margin-top: 5px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#event_details_2 .comment_content .event_details_2_comments .event_details_2_comments_content a:hover {
+  color: #fbaa33;
+}
+#event_details_2 .comment_content .event_details_2_comments .event_details_2_comments_content a i {
+  margin-right: 5px;
+}
+#event_details_2 .replay_content .name_input {
+  margin-top: 28px;
+}
+#event_details_2 .replay_content .name_input input {
+  margin-right: 10px;
+  padding: 10px;
+  color: #777777;
+  outline: none;
+  border: 1px solid #777777;
+  margin-bottom: 15px;
+}
+#event_details_2 .replay_content textarea {
+  color: #777777;
+  outline: none;
+  padding: 10px;
+  height: 130px;
+  resize: none;
+  border: 1px solid #777777;
+  margin-bottom: 15px;
+}
+#event_details_2 .replay_content button {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fefefe;
+  outline: none;
+  background: #2d3e50;
+  text-transform: capitalize;
+  border: none;
+  margin-bottom: 22px;
+}
+#event_details_2 .replay_content p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+#event_details_2 .replay_content p span a {
+  color: #2c8cde;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#event_details_2 .replay_content p span a:hover {
+  text-decoration: underline;
+}
+
+/* Event Details 2 section start  */
+/* Register section css start  */
+#register .register_img {
+  margin-left: -126px;
+}
+#register .register_content h5 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #2e3e50;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+#register .register_content .reg_para {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  margin-bottom: 10px;
+}
+#register .register_content span {
+  display: inline-block;
+  width: 60px;
+  height: 4px;
+  background: #2e3e50;
+  border-radius: 10px;
+}
+#register .register_content .name {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+#register .register_content .name .name_item {
+  position: relative;
+}
+#register .register_content .name .name_item input {
+  margin-right: 20px;
+  width: 263px;
+  padding: 10px;
+  color: #999999;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #999999;
+}
+#register .register_content .name .name_item input:focus {
+  border-color: #2e3e50;
+  color: #2e3e50;
+}
+#register .register_content .name .name_item i {
+  position: absolute;
+  top: 20px;
+  right: 22px;
+  color: #999999;
+}
+#register .register_content .input {
+  position: relative;
+}
+#register .register_content .input input {
+  padding: 10px;
+  color: #999999;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #999999;
+  margin-bottom: 20px;
+}
+#register .register_content .input input:focus {
+  border-color: #2e3e50;
+  color: #2e3e50;
+}
+#register .register_content .input i {
+  position: absolute;
+  top: 22px;
+  right: 0;
+  color: #999999;
+}
+#register .register_content button {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fefefe;
+  outline: none;
+  background: #2d3e50;
+  text-transform: capitalize;
+  border: none;
+  margin-bottom: 47px;
+}
+#register .register_content .account {
+  margin-bottom: 100px;
+}
+#register .register_content .account .sign_para {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+}
+#register .register_content .account .sign_para a {
+  color: #2d3e50;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#register .register_content .account .sign_para a:hover {
+  text-decoration: underline;
+}
+#register .register_content .account .reg p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  margin-right: 10px;
+}
+#register .register_content .account .reg .reg_btn {
+  position: relative;
+}
+#register .register_content .account .reg .reg_btn a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  background: #2d3e50;
+  color: #fefefe;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-right: 1px solid #999999;
+  margin-top: -15px;
+}
+#register .register_content .account .reg .reg_btn a:hover {
+  background: #d9594f;
+}
+
+/* Register section css end  */
+/* Sign In section css start  */
+#sign_in .sign_in_img {
+  margin-left: -126px;
+  margin-bottom: 100px;
+}
+#sign_in .sign_in_content h5 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #2e3e50;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+#sign_in .sign_in_content .reg_para {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  margin-bottom: 10px;
+}
+#sign_in .sign_in_content span {
+  display: inline-block;
+  width: 60px;
+  height: 4px;
+  background: #2e3e50;
+  border-radius: 10px;
+}
+#sign_in .sign_in_content .input {
+  position: relative;
+}
+#sign_in .sign_in_content .input input {
+  padding: 10px;
+  color: #999999;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #999999;
+  margin-bottom: 20px;
+}
+#sign_in .sign_in_content .input input:focus {
+  border-color: #2e3e50;
+  color: #2e3e50;
+}
+#sign_in .sign_in_content .input i {
+  position: absolute;
+  top: 22px;
+  right: 0;
+  color: #999999;
+}
+#sign_in .sign_in_content button {
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fefefe;
+  outline: none;
+  background: #fbaa33;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 28px;
+}
+#sign_in .sign_in_content .forget_pass .forget {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  text-transform: capitalize;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#sign_in .sign_in_content .forget_pass .forget:hover {
+  color: #2e3e50;
+  text-decoration: underline;
+}
+#sign_in .sign_in_content .forget_pass p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999999;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#sign_in .sign_in_content .forget_pass p a {
+  color: #2e3e50;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#sign_in .sign_in_content .forget_pass p a:hover {
+  text-decoration: underline;
+}
+
+/* Sign In section css end  *//*# sourceMappingURL=style.css.map */
