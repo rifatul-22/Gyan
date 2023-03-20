@@ -1128,6 +1128,30 @@ footer .address .address_item .info .contact a:hover {
   text-transform: capitalize;
 }
 
+/* Back to Top section css start */
+#backToTop {
+  width: 60px;
+  height: 60px;
+  background: #2d3e50;
+  color: #ffffff;
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  border: 5px solid #fbaa33;
+  border-radius: 50%;
+  font-size: 16px;
+  z-index: 9999;
+  display: none;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+  opacity: 0.6;
+}
+
+#backToTop:hover {
+  opacity: 1;
+}
+
+/* Back to Top section css end */
 #about_banner {
   background: url(../img/Our_Courses_bg.jpg);
   background-position: center;

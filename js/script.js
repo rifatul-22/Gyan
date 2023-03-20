@@ -26,4 +26,25 @@ $(function(){
          prevArrow:$('.testimonial_slider_icon_btn.prev'),
          nextArrow:$('.testimonial_slider_icon_btn.next')
     });
+    // Counter Up activation
+    $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+    });
+    // Back to Top activation 
+    $(window).on('scroll', function(){
+        var navScroll = $(window).scrollTop();
+  
+        //BackToTop
+        if(navScroll > 500){
+            $('#backToTop').show(300);
+        }else{
+            $('#backToTop').hide(300);
+        }
+    })
+    $('#backToTop').on('click', function(){
+        $('html, body').animate({
+            scrollTop: 0
+        })
+    })
 });
