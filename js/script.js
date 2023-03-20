@@ -34,6 +34,15 @@ $(function(){
     // Back to Top activation 
     $(window).on('scroll', function(){
         var navScroll = $(window).scrollTop();
+
+
+        //Menu Fix activation
+
+        if(navScroll > 150){
+            $('#nav').addClass('active_menu');
+        }else{
+            $('#nav').removeClass('active_menu');
+        };
   
         //BackToTop
         if(navScroll > 500){
